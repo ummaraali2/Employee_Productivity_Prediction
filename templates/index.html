@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+</head>
+
+   <body>
+       
+       <h3>Productivity Prediction Form</h3>
+
+<div>
+  <form action="/result" method="POST">
+    
+   <br>
+    <label for="quarter">Quarter</label>
+    <input type="text" id="quarter" name="quarter">
+  </br>
+    <br>
+    <label for="day">Day</label>
+    <select id="day" name="day">
+      <option value="0">Sunday</option>
+      <option value="1">Monday</option>
+      <option value="2">Tuesday</option>
+      <option value="3">Wednesday</option>
+      <option value="4">Thursday</option>
+      <option value="5">Friday</option>
+      <option value="6">Saturday</option>
+    </select>
+    </br>
+    <br>
+    <label for="department">Daepartment</label>
+    <input type="text" id="department" name="department">
+  </br>
+    <br>
+    <label for="team">Team</label>
+    <input type="text" id="team" name="team">
+</br>
+<br>
+    <label for="targeted_productivity">targeted_productivity</label>
+    <input type="text" id="targeted_productivity" name="targeted_productivity">
+</br>
+<br>
+    <label for="smv">standard minute value</label>
+    <input type="text" id="smv" name="smv">
+</br>
+<br>
+    <label for="wip">Work in progress</label>
+    <input type="text" id="wip" name="wip">
+</br>
+
+<br>
+    <label for="over_time">over_time</label>
+    <input type="text" id="over_time" name="over_time">
+</br>
+<br>
+    <label for="incentive">incentive</label>
+    <input type="text" id="incentive" name="incentive">
+</br>
+<br>
+    <label for="idle_time ">idle_time </label>
+    <input type="text" id="idle_time " name="idle_time ">
+</br>
+<br>
+    <label for="idle_men ">idle_men </label>
+    <input type="text" id="idle_men " name="idle_men ">
+</br>
+<br>
+    <label for=" no_of_style_change "> no_of_style_change </label>
+    <input type="text" id=" no_of_style_change " name=" no_of_style_change ">
+</br>
+<br>
+    <label for="no_of_workers">no_of_workers </label>
+    <input type="text" id="no_of_workers " name="no_of_workers ">
+</br>
+<br>
+<button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+</br>
+  </form>
+</div>
+
+</body>
+</html>
